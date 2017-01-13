@@ -22,7 +22,7 @@ var app = {
 		destinationType: Camera.DestinationType.FILE_URI,
 		targetWidth: 300,
 		targetHeight: 300,
-		correcOrientation: true
+		correctOrientation: true
 	};
 		navigator.camera.getPicture(app.fotoTomada, app.errorAlTomarFoto, opciones);
 		var salida= document.querySelector('.header');
@@ -35,7 +35,7 @@ var app = {
 		destinationType: Camera.DestinationType.FILE_URI,
 		targetWidth: 300,
 		targetHeight: 300,
-		correcOrientation: true
+		correctOrientation: true
 	};
 		navigator.camera.getPicture(app.fotoTomada, app.errorAlTomarFoto, opciones);
 		var salida= document.querySelector('.header');
