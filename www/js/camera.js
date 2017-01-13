@@ -13,7 +13,7 @@ var app = {
 	var	buttonAction = document.querySelector('#button-action');
 	buttonAction.addEventListener('click', this.tomarFoto);
 	var	buttonAction2 = document.querySelector('#button-action2');
-	buttonAction.addEventListener('click', this.tomarFoto2);	
+	buttonAction2.addEventListener('click', this.tomarFoto2);	
 	},
 
 	tomarFoto: function() {
