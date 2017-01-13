@@ -28,8 +28,8 @@ var app = {
 	fotoTomada: function(imageURI) {
 	var image = document.querySelector('#foto');
 	image.src= imageURI;
-	var salida= document.querySelector('.footer');
-	salida.innerHTML ="hola";
+	var salida= document.querySelector('.header');
+		salida.innerHTML ="Carlos: hombre joven de gran atractivo";
 	},
 
 	errorAlTomarFoto: function(message){
