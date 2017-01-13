@@ -18,7 +18,7 @@ var app = {
 
 	tomarFoto: function() {
 	var opciones = {
-		quality:50,
+		quality:100,
 		destinationType: Camera.DestinationType.FILE_URI,
 		targetWidth: 300,
 		targetHeight: 300,
@@ -31,7 +31,7 @@ var app = {
 	
 	tomarFoto2: function() {
 	var opciones = {
-		quality:50,
+		quality:100,
 		destinationType: Camera.DestinationType.FILE_URI,
 		targetWidth: 300,
 		targetHeight: 300,
